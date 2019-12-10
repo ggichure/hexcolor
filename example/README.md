@@ -7,9 +7,9 @@ hex color plugin allows you to add hex color codes to your flutter projects
 ## Getting Started
 
 sample usage
-`import 'package:hexcolor/hexcolor.dart';`
 
-```
+```dart
+import 'package:hexcolor/hexcolor.dart';
  Container(
           decoration: new BoxDecoration(
             color: Hexcolor('#34cc89'),
