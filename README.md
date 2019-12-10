@@ -26,7 +26,8 @@ import 'package:hexcolor/hexcolor.dart';
 ```
 Hexcolor("#yourhex")
 ```
-
+<p> <img src="https://github.com/ggichure/hexcolor/blob/master/Screenshot%20from%202019-12-10%2008-49-21.png"/>
+ </p>
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
