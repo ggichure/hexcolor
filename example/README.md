@@ -1,13 +1,13 @@
 # hexcolor_example
 
- how to use the hexcolor plugin.
+how to use the hexcolor plugin.
 
-
-hex color plugin allows you to add hex color codes to your flutter projects 
-
+hex color plugin allows you to add hex color codes to your flutter projects
 
 ## Getting Started
-sample usage 
+
+sample usage
+`import 'package:hexcolor/hexcolor.dart';`
 
 ```
  Container(
