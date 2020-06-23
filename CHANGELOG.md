@@ -4,3 +4,6 @@
 
 ## 1.0.2 
 update dart sdk version
+## 1.0.3
+
+support web,linux,macos and windows
