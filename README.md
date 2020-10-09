@@ -10,23 +10,20 @@ sample usage
 
 ```dart
 import 'package:hexcolor/hexcolor.dart';
- Container(
-          decoration: new BoxDecoration(
-            color: Hexcolor('#34cc89'),
-          ),
-          child: Center(
-            child: Text(
-              'Running on: $_platformVersion\n',
-              style: TextStyle(color: Hexcolor("#f2f2f2")),
-            ),
-          ),
-        ),
+                    Text( 
+                      'Running on: $_platformVersion\n',
+                    style: TextStyle(color: HexColor("#f2f2f2")),
+                  ),
+                  Text(
+                    "Hex From Material  $textColor",
+                    style: TextStyle(color: ColorToHex(Colors.teal)),
+                  ),
 ```
 
 ```
 Hexcolor("#yourhex")
 ```
-<p> <img src="https://github.com/ggichure/hexcolor/blob/master/Screenshot%20from%202019-12-10%2008-49-21.png"/>
+<p> <img src="https://raw.githubusercontent.com/ggichure/hexcolor/master/Screenshot%20from%202019-12-10%2008-49-21.png"/>
  </p>
 A few resources to get you started if this is your first Flutter project:
 

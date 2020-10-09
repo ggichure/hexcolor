@@ -7,3 +7,12 @@ update dart sdk version
 ## 1.0.4
 
 support web,linux,macos and windows
+
+
+## 1.0.5
+# Breaking changes 
+```Hexcolor``` to ```HexColor```
+
+Conver color to hex
+
+``` ColorToHex(Colors.teal)```

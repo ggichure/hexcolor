@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    initPlatformState();
+    //  initPlatformState();
   }
 
   // Platform messages are asynchronous, so we initialize in an async method.
@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await Hexcolor.platformVersion;
+      platformVersion = await HexColor.platformVersion;
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
@@ -40,22 +40,34 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
+  String textColor = ColorToHex(Colors.teal).toString();
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Hexcolor("#ffff4444"),
+          backgroundColor: HexColor("#ffff4444"),
           title: const Text('Plugin example app'),
         ),
         body: Container(
           decoration: new BoxDecoration(
-            color: Hexcolor('#34cc89'),
+            color: ColorToHex(Colors.blueGrey[100]),
           ),
           child: Center(
-            child: Text(
-              'Running on: $_platformVersion\n',
-              style: TextStyle(color: Hexcolor("#f2f2f2")),
+            child: Container(
+              height: 200,
+              child: Column(
+                children: [
+                  Text(
+                    'Running on: $_platformVersion\n',
+                    style: TextStyle(color: HexColor("#f2f2f2")),
+                  ),
+                  Text(
+                    "Hex From Material  $textColor",
+                    style: TextStyle(color: ColorToHex(Colors.teal)),
+                  ),
+                ],
+              ),
             ),
           ),
         ),

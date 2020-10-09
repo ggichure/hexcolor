@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Hexcolor.platformVersion, '42');
+    expect(await HexColor.platformVersion, '42');
   });
 }
