@@ -67,6 +67,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   hexcolor:
     dependency: "direct dev"
     description:
@@ -74,6 +79,13 @@ packages:
       relative: true
     source: path
     version: "1.0.5"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.3-nullsafety.1"
   matcher:
     dependency: transitive
     description:
