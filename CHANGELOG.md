@@ -16,3 +16,7 @@ support web,linux,macos and windows
 Conver color to hex
 
 ``` ColorToHex(Colors.teal)```
+
+## 1.0.6
+
+use channel stable
