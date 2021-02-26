@@ -1,7 +1,7 @@
 <p align="center">
 
 <a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/badge/licence-BSD%203-brightgreen" alt="License: BSD 3"></a>
-<a href="https://pub.dev/packages/hexcolor"><img src="https://img.shields.io/badge/pub.dev-33-blue" alt="Pub.dev 33"></a>
+<a href="https://pub.dev/packages/hexcolor"><img src="https://img.shields.io/badge/pub.dev-60-blue" alt="Pub.dev 33"></a>
 
 </p>
 

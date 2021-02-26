@@ -1,15 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class HexColor extends Color {
-  ///use hex color strings in your app
-  static const MethodChannel _channel = const MethodChannel('hexcolor');
-
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-
   static int _getColorFromHex(String hexColor) {
     hexColor = hexColor.toUpperCase().replaceAll("#", "");
     if (hexColor.length == 6) {
