@@ -22,3 +22,6 @@ Conver color to hex
 use channel stable
 ## 2.0.0
 remove unused files in lib
+
+## 2.0.2
+null safety
