@@ -28,7 +28,7 @@ class HexcolorWeb {
     switch (call.method) {
       case 'getPlatformVersion':
         return getPlatformVersion();
-        break;
+
       default:
         throw PlatformException(
           code: 'Unimplemented',
