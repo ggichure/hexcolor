@@ -1,13 +1,20 @@
-## 0.0.1
 
-* TODO: Describe initial release.
+## 2.0.5
 
-## 1.0.2 
-update dart sdk version
-## 1.0.4
 
-support web,linux,macos and windows
+## 2.0.4
 
+## 2.0.3
+
+## 2.0.2
+null safety
+
+## 2.0.0
+remove unused files in lib
+
+## 1.0.6
+
+use channel stable
 
 ## 1.0.5
 # Breaking changes 
@@ -17,19 +24,13 @@ Conver color to hex
 
 ``` ColorToHex(Colors.teal)```
 
-## 1.0.6
+## 1.0.4
 
-use channel stable
-## 2.0.0
-remove unused files in lib
+support web,linux,macos and windows
 
-## 2.0.2
-null safety
+## 1.0.2 
+update dart sdk version
 
+## 0.0.1
 
-## 2.0.3
-
-## 2.0.4
-
-## 2.0.5
-
+* TODO: Describe initial release.
