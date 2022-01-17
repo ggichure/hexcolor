@@ -1,4 +1,6 @@
-
+## 2.0.6
+support for dart 2.15
+added buy me a coffee
 ## 2.0.5
 
 

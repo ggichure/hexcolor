@@ -20,8 +20,8 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: HexColor("#ffff4444"),
-          title: const Text('Plugin example app'),
+          backgroundColor: HexColor("#ff4444"),
+          title: const Text('HexColor'),
         ),
         body: Container(
           decoration: new BoxDecoration(

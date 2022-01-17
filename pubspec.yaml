@@ -1,12 +1,12 @@
 name: hexcolor
 description: A flutter plugin for bringing hex colors to dart hexcolorPlugin.
-version: 2.0.5
+version: 2.0.6
 
 
 homepage: https://github.com/ggichure/hexcolor
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.15.0 <3.0.0"
   flutter: ">=2.0.1"
 
 dependencies:

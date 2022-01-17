@@ -14,7 +14,7 @@ class HexcolorWeb {
     final MethodChannel channel = MethodChannel(
       'hexcolor',
       const StandardMethodCodec(),
-      registrar.messenger,
+   
     );
 
     final pluginInstance = HexcolorWeb();

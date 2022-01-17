@@ -1,7 +1,7 @@
 <p align="center">
 
 <a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/badge/licence-BSD%203-brightgreen" alt="License: BSD 3"></a>
-<a href="https://pub.dev/packages/hexcolor"><img src="https://img.shields.io/badge/pub.dev-106-blue" alt="Pub.dev 106"></a>
+<a href="https://pub.dev/packages/hexcolor"><img src="https://img.shields.io/badge/pub.dev-147-blue" alt="Pub.dev 147"></a>
 
 </p>
 
@@ -33,11 +33,14 @@ Hexcolor("#yourhex")
 ```
 <p> <img src="https://raw.githubusercontent.com/ggichure/hexcolor/master/Screenshot%20from%202019-12-10%2008-49-21.png"/>
  </p>
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Color to hex
+
+```
+String textColor = ColorToHex(Colors.teal).toString();
+```
+
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ggriffo)
+
