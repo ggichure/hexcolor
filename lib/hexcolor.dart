@@ -6,7 +6,14 @@ class HexColor extends Color {
     if (hexColor.length == 6) {
       hexColor = "FF" + hexColor;
     }
-    return int.parse(hexColor, radix: 16);
+
+    final hexNum = int.parse(hexColor, radix: 16);
+
+    if (hexNum == 0) {
+      return 0xff000000;
+    }
+
+    return hexNum;
   }
 
   HexColor(final String hexColor) : super(_getColorFromHex(hexColor));
