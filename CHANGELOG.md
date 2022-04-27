@@ -1,4 +1,4 @@
-# 2.07
+# 2.0.7
 When using HexColor('#000'), this will be parsed as transparent, because Color(0) == Colors.transparent
 
 ## 2.0.6

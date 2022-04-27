@@ -14,8 +14,7 @@
 *.ipr
 *.iws
 .idea/
-pubspec.lock
-example/pubspec.lock
+
 
 
 # The .vscode folder contains launch configuration and tasks you configure in
@@ -31,7 +30,7 @@ example/pubspec.lock
 .pub-cache/
 .pub/
 /build/
-/example
+
 
 
 # Android related
