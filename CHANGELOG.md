@@ -1,3 +1,6 @@
+# 2.07
+When using HexColor('#000'), this will be parsed as transparent, because Color(0) == Colors.transparent
+
 ## 2.0.6
 support for dart 2.15
 added buy me a coffee
