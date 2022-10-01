@@ -1,3 +1,7 @@
+# 3.0.1
+
+Nothing major, pub dev publishing compliance .
+
 # 3.0.0
 
 HexColor is now a dart package.
