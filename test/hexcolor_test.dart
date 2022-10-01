@@ -1,19 +1,16 @@
-import 'package:flutter/services.dart';
-import 'package:flutter_test/flutter_test.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:test/test.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('hexcolor');
+  group('A group of tests', () {
+    final awesome = HexColor('#ffffff');
 
-  TestWidgetsFlutterBinding.ensureInitialized();
-
-  setUp(() {
-    channel.setMockMethodCallHandler((MethodCall methodCall) async {
-      return '42';
+    setUp(() {
+      // Additional setup goes here.
     });
-  });
 
-  tearDown(() {
-    channel.setMockMethodCallHandler(null);
+    test('First Test', () {
+      expect(awesome, isTrue);
+    });
   });
 }

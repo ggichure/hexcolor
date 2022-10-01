@@ -9,7 +9,7 @@ example/.flutter-plugins-dependencies
   example/android/app/src/main/kotlin/com/ggichure/github/example/MainActivity.kt
   example/android/app/src/main/kotlin/com/ggichure/github/hexcolor_example/MainActivity.kt
 
-
+example/*
   # Miscellaneous
 *.class
 *.log
