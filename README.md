@@ -7,8 +7,6 @@
 
 # hexcolor_example
 
-how to use the hexcolor plugin.
-
 hex color plugin allows you to add hex color codes to your flutter projects
 
 ## Getting Started
@@ -35,10 +33,6 @@ HexColor("#yourhex")
 <p> <img src="./sample.png"/>
  </p>
 
-### Color to hex
 
-```
-String textColor = ColorToHex(Colors.teal).toString();
-```
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ggriffo)
