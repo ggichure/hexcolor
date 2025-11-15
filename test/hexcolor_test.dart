@@ -18,27 +18,27 @@ void main() {
   group('HexColor', () {
     test('parses 6-digit hex with hash', () {
       final color = HexColor('#FF0000');
-      expect(color.value, 0xFFFF0000);
+      expect(color.toARGB32(), 0xFFFF0000);
     });
 
     test('parses 6-digit hex without hash', () {
       final color = HexColor('FF0000');
-      expect(color.value, 0xFFFF0000);
+      expect(color.toARGB32(), 0xFFFF0000);
     });
 
     test('parses 8-digit hex with alpha', () {
       final color = HexColor('#80FF0000');
-      expect(color.value, 0x80FF0000);
+      expect(color.toARGB32(), 0x80FF0000);
     });
 
     test('parses 3-digit shorthand', () {
       final color = HexColor('#ABC');
-      expect(color.value, 0xFFAABBCC);
+      expect(color.toARGB32(), 0xFFAABBCC);
     });
 
     test('parses 4-digit shorthand with alpha', () {
       final color = HexColor('#FABC');
-      expect(color.value, 0xFFAABBCC);
+      expect(color.toARGB32(), 0xFFAABBCC);
     });
 
     test('throws on empty string', () {
@@ -55,7 +55,7 @@ void main() {
 
     test('tryParse returns color on valid input', () {
       final color = HexColor.tryParse('#FF0000');
-      expect(color?.value, 0xFFFF0000);
+      expect(color?.toARGB32(), 0xFFFF0000);
     });
 
     test('tryParse returns null on invalid input', () {
