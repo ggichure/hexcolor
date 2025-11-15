@@ -17,21 +17,22 @@ sample usage
 
 ```dart
 import 'package:hexcolor/hexcolor.dart';
-                    Text(
-                      'Running on: $_platformVersion\n',
-                    style: TextStyle(color: HexColor("#f2f2f2")),
-                  ),
-                  Text(
-                    "Hex From Material  $textColor",
-                    style: TextStyle(color: ColorToHex(Colors.teal)),
-                  ),
+  Text("Hello There!", style: TextStyle(color: HexColor("#009688"))),
+        ElevatedButton(
+          onPressed: () {
+            setState(() {
+              colorCode = Colors.teal.toHex();
+            });
+          },
+          child: Text('Get Hex Color $colorCode'),
+        ),
 ```
 
 ```
-Hexcolor("#yourhex")
+HexColor("#yourhex")
 ```
 
-<p> <img src="https://raw.githubusercontent.com/ggichure/hexcolor/master/Screenshot%20from%202019-12-10%2008-49-21.png"/>
+<p> <img src="./sample.png"/>
  </p>
 
 ### Color to hex

@@ -1,11 +1,10 @@
 name: hexcolor
 description: Brings HexColor for your dart and flutter projects, convert material colors to hex colors
-version: 3.0.1
+version: 3.0.2
 homepage: https://github.com/ggichure/hexcolor
 
 environment:
-  sdk: ">=2.18.1 <3.0.0"
-  flutter: ">=2.0.1"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -14,7 +13,7 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  lints: ^2.0.0
+  lints: ^6.0.0
   test: ^1.16.0
   flutter_test:
     sdk: flutter

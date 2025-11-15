@@ -1,3 +1,6 @@
+# 3.0.2
+Breaking change
+`ColorToHex(Colors.teal)` to  `Colors.teal.toHex();`
 # 3.0.1
 
 Nothing major, pub dev publishing compliance .
