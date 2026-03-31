@@ -1,3 +1,6 @@
+# 3.1.3
+Color is imported from dart UI 
+
 # 3.0.2
 Breaking change
 `ColorToHex(Colors.teal)` to  `Colors.teal.toHex();`
