@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'dart:ui';
 
 /// Extension on [Color] to convert colors to hexadecimal string representation.
 extension ColorToHex on Color {
