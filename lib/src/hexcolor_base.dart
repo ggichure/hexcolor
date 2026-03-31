@@ -42,11 +42,12 @@ class HexColor extends Color {
 
   /// Normalizes the hex string by removing prefixes and whitespace.
   static String _normalizeHex(String hex) {
-    hex = hex
-        .replaceAll('#', '')
-        .replaceAll('0x', '')
-        .replaceAll('0X', '')
-        .trim();
+    hex =
+        hex
+            .replaceAll('#', '')
+            .replaceAll('0x', '')
+            .replaceAll('0X', '')
+            .trim();
 
     if (hex.isEmpty) {
       throw const FormatException('Hex color string is empty.');
